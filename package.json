@@ -1,0 +1,33 @@
+{
+  "name": "seeeeoh-lab-website",
+  "version": "1.0.0",
+  "description": "SEEEEOH LAB - AI and Cybersecurity Research Website for Southern Africa",
+  "main": "index.html",
+  "scripts": {
+    "deploy": "netlify deploy --prod",
+    "deploy:draft": "netlify deploy",
+    "dev": "netlify dev",
+    "login": "netlify login",
+    "status": "netlify status"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/seeeeoh-lab-website.git"
+  },
+  "keywords": [
+    "cybersecurity",
+    "AI",
+    "automation",
+    "namibia",
+    "SADC",
+    "digital-forensics",
+    "security-monitoring"
+  ],
+  "author": "Benjamen Elungu <benjamen@see-ee-oh.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "netlify-cli": "^17.0.0"
+  },
+  "homepage": "https://see-ee-oh.com"
+}
